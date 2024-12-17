@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 4533906186723196555}
   - component: {fileID: 6860953290976358131}
   - component: {fileID: 3667146026308567440}
+  - component: {fileID: -5567468962940985298}
   - component: {fileID: -1049263274919607880}
   m_Layer: 0
   m_Name: Laser
@@ -121,6 +122,33 @@ CapsuleCollider2D:
   m_Offset: {x: 0, y: 0.03}
   m_Size: {x: 0.42, y: 0.7}
   m_Direction: 0
+--- !u!50 &-5567468962940985298
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2713521711317417298}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!114 &-1049263274919607880
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -133,5 +161,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 09f77aef514b4664fa57eaf9401cb2ce, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  drag: 0.98
-  acceleration_factor: 1
+  drag: 0.97
+  acceleration_factor: 0.7

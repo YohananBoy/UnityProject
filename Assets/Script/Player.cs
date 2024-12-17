@@ -19,8 +19,6 @@ public abstract class Player : MonoBehaviour
     [SerializeField] protected KeyCode attack;
 
     //Shoot
-    [SerializeField] protected GameObject shoot;
-    [SerializeField] protected Transform spawn;
     protected float shootTimer;
 
 

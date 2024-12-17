@@ -4,7 +4,11 @@ using UnityEngine;
 
 public class NaveTipoA : Player
 {
-    [SerializeField] protected float shootCooldown = 0.4f;
+    [SerializeField] private GameObject shoot;
+    [SerializeField] private Transform spawn;
+    [SerializeField] private float shootCooldown = 0.4f;
+    [SerializeField] private float damage;
+
 
     protected override void Attacking()
     {
